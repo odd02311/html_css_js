@@ -1,0 +1,52 @@
+/* p {
+    color: red;
+    background-color: antiquewhite;
+  }
+
+  
+h2 {
+    color: yellowgreen;
+   } */
+/* 
+#x {
+  
+  height: 200px;
+  background-color: red;
+  display: block;
+  
+} */
+
+#x {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(77, 77, 77);
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+}
+
+
+#a{
+  background-color: rgb(255, 0, 43);
+}
+
+#b{
+  background-color: rgb(255, 187, 0);
+}
+
+#c{
+  background-color: rgb(238, 255, 0);
+}
+
+#d{
+  background-color: green;
+}
+
+#e{
+  background-color: blue;
+}

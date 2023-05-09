@@ -1,0 +1,33 @@
+/* tr, td, th {
+    border: 1px solid pink;
+
+}
+
+img{
+    width: 100px;
+    height: 100px;
+
+} */
+
+table {
+    border-width: 2px;
+    border-style: solid;
+    border-color: blue;
+}
+
+td{
+    border-width: 2px;
+    border-style: dashed;
+    border-color: blueviolet;
+}
+
+img {
+    width: 350px;
+    height: 200px;
+}
+
+#sw2{
+
+    width:500px;
+
+}

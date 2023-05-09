@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(87, 87, 87);
+}
+
+#X{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.z{
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+}
+
+.zz{
+    margin: 10px;
+}
+
+#a{
+    background-color: rgb(255, 0, 0);
+}
+
+#b{
+    background-color: rgb(255, 174, 0);
+}
+
+#c{
+    background-color: rgb(251, 255, 0);
+}
+
+#d{
+    background-color: green;
+}
+
+#e{
+    background-color: blue;
+}
