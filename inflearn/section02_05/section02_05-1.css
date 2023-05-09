@@ -1,0 +1,9 @@
+            /* 하위 선택자
+            #item-list p {
+                color: red;
+            }
+
+            /* 자식 선택자 */
+            /* #item-list > p {
+                color: blue;
+            } */ 
