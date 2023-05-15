@@ -92,3 +92,37 @@ function getName(){
 }
 
 getName();
+
+// function sayHello(name){
+//   함수     함수명 (매개변수)
+//}
+
+let msg = "Hello";  // 어디서나 접근 가능한 변수가 전역 변수 (global varable)
+console.log("함수 호출 전");
+console.log(msg);
+
+function sayHellow(name){
+    if(name){
+        msg += ', ' + name;
+    }
+console.log("함수 내부");
+    // 지역 변수 (local varable)
+    console.log(msg);
+}
+
+sayHellow("Mike");
+console.log("함수 호출 후");
+console.log(msg);
+
+// 전역 변수와 지역 변수
+
+let msg1 = "welcome"; // 전역변수
+console.log(msg1)
+
+function tellHello(name){
+    let msg1 = "Hello"; // 지역변수: 함수 내부에서 전역변수와 같은 이름이 가능하고
+    console.log(msg1 + ' ' + name); // 서로 간섭을 받지않음
+}
+
+tellHello("Mike");
+console.log(msg1);

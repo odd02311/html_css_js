@@ -46,3 +46,31 @@ document.write(typeof(hello) + "<br>");
 let title = null;
 
 document.write(typeof(title) + "<br>");
+
+// var는 한번 선언된 변수를 다시 선언할 수 있다.
+
+// var name = "Mike";
+// console.log(name); // Mike
+// var name = "Jane";
+// console.log(name); // Jane
+
+// let name = "Mike";
+// console.log(name); // Mike
+// let name = "Jane"; // error!
+// console.log(name); 
+
+// var는 선언하기 전에 사용할 수 있다.
+
+// console.log(name); // undefined
+// var name = "Mike";  // 선언하기전에 사용해도 에러를 일으키지 않음
+
+// var name;
+// console.log(name); //  undefined
+// name = "Mike"; // var로 선언된 모든 변수는 코드가 실제로 이동하진 않지만
+// 최상위로 끌려올려진 것 처럼 동작함 (호이스팅-Hoisting)이라고 함
+// console은 undefined라고 출력함
+// 선언 name 은 var name;에 호이스팅 되지만 "Mike" 할당은 호이스팅 되지않음
+// name이라는 변수만 올려지고, "Mike"라는 값은 그대로 있음
+
+// 호이스팅: 스코프 내부 어디서든 변수 선언은 최상위에 선언된 것 처럼 행동
+

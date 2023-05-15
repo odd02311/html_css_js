@@ -54,3 +54,40 @@ document.write(product["seller"] + "<br>");
 
 product.seller = "판매자1";
 document.write(product.seller + "<br>")
+
+
+// Object
+// const superman = {
+//     name : 'clark',
+//     age : 33,
+// }
+// 접근: superman.name & superman['age']
+// 추가: superman.gender = 'male'; & superman['hairColor'] = black
+// 삭제: delete superman.hairColor;
+
+// const superman = {
+//     name : 'Clark',
+//     age : 30,
+// }
+
+// console.log(superman.name);
+// console.log(superman['age']);
+// superman.hairColor = "black";
+// superman['hobby'] = 'football';
+// delete superman.age;
+// console.log(superman);
+
+function makeObject(name, age){
+    return {
+        name,
+        age,
+        hobby : 'football'
+    }
+}
+
+const Mike = makeObject('Mike', 30);
+console.log(Mike);
+
+
+console.log('age' in Mike);
+console.log('birthday' in Mike);
