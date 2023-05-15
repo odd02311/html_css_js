@@ -273,10 +273,31 @@
     매개변수를 x,y를 받아서 둘을 더하여
     합계를 반환하는 함수
 */
-function add(x,y){
-    var sum = x + y;
-    return sum + 1;
-}
 
-var z = add(1,2);
-document.write(z);
+// function add(x,y){
+//     var sum = x + y;
+//     return sum + 1;
+// }
+
+// var z = add(1,2);
+// document.write(z);
+
+
+//배열
+
+var a = "개";
+var b = "고양이";
+var c = "너구리";
+
+document.write(a);
+dw(a);
+
+// 배열. array. 종합변수. 여러개 값을 한방에 저장함.
+
+var x = [7,8,100,10,200];
+
+var y = ["개", "고양이", "토끼"];
+
+// index 색인.
+
+dw(x[0]);
